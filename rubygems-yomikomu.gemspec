@@ -6,8 +6,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["SHIBATA Hiroshi"]
   spec.email         = ["hsbt@ruby-lang.org"]
 
-  spec.summary       = %q{Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{Write a longer description or delete this line.}
+  spec.summary       = %q{rubygems hooks for yomikomu}
+  spec.description   = %q{rubygems hooks for yomikomu}
   spec.homepage      = "https://github.com/hsbt/rubygems-yomikomu"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }

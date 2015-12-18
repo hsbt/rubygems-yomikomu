@@ -1,28 +1,16 @@
 # Rubygems::Yomikomu
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/rubygems/yomikomu`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+rubygems hook for yomikomu gem. this gem enabled to compile instruction sequences from installed ruby files.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'rubygems-yomikomu'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
+install it yourself as:
 
     $ gem install rubygems-yomikomu
 
 ## Usage
 
-TODO: Write usage instructions here
+You can add "-ryomikomu" to RUBYOPT environment variable using compiled instruction sequences.
 
 ## Development
 
@@ -32,5 +20,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/rubygems-yomikomu.
-
+Bug reports and pull requests are welcome on GitHub at https://github.com/hsbt/rubygems-yomikomu.
